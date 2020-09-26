@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dialogflow": "4.0.3",
+    "events": "3.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "uuid": "8.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
