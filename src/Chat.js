@@ -14,7 +14,7 @@ const Chat = props => {
     };
 
     axios
-      .post("https://rqlml.sse.codesandbox.io/chatbot", data)
+      .post("YOUR_API_URL", data)
       .then(response => {
         const responseData = {
           text: response.data["message"]["fulfillmentText"] != "" ? response.data["message"]["fulfillmentText"] : "Sorry, I can't get it. Can you please repeat once?",
